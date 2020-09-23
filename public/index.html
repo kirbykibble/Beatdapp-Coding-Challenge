@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <!--Font sourcing-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="public/style.css">
+        <script src="scripts/indexbundle.js"></script>
+        
+        <title>Beatdapp Coding Challenge</title>
+    </head>
+    <body>
+        <h1 ID="header">Expense Tracker</h1>
+        <div ID="formContainer" class="container">
+            <div class="row">
+                <input type="text" placeholder="Name" ID="exName" class="userInput col-sm-3 ml-auto">
+                <input type="number" placeholder="Cost" ID="exCost" class="userInput col-sm-3 ml-auto">
+                <input type="text" placeholder="Category" ID="exCat" class="userInput col-sm-3 ml-auto">
+                <button type="button" ID="exEnter" class="col-sm-2 ml-auto">Enter</button>
+            </div>
+        </div>
+        <div ID="expenseContainer" class="container">
+            <h2 ID="subHeader" class="row ml-auto">Tracked Expenses</h2>
+            <div ID="expenseList" class="container">
+                <div class="row exRows" id="Ident">
+                    <div class="exItem col-3 ml-auto">Name</div>
+                    <div class="exItem col-3 ml-auto">Cost ($)</div>
+                    <div class="exItem col-3 ml-auto">Category</div>
+                    <div ID="delCol" class="exItem col-2 ml-auto"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
