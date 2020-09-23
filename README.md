@@ -20,3 +20,5 @@ If you wish to run this locally, you will need to download and install the node 
 Data persistence was implemented through the use of Google's [Firestore](https://firebase.google.com/products/firestore) service. Due to this method of implementation, data persists through any session, regardless of user. Additionally, the app should be safe against SQL injection or HTML injection attempts. 
 
 Also, I should mention that while I was not required to deploy this to a server, I ultimately decided to build this app with a server in mind. An app that makes use of a database is much more susceptible to malicious attacks if the client were to directly interact with the database. Hence, the use of a NodeJs server. 
+
+Finally, the design and theming for this site was intentionally styled to be similar to [Beatdapp's](https://www.beatdapp.com/) website
